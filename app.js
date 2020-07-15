@@ -76,3 +76,36 @@ for (let i = 0; i < cars.length; i++) {
   let eachCar = cars[i]; // Tesla, Honda...
   console.log(eachCar);
 }
+
+// Objects
+// key: value pairs
+
+const rome = {
+  fullName: "Rome Bell",
+  age: 32,
+  myLocation: "Los Angeles",
+  placesTraveled: ["Kentucky", "Ohio", "New York", "Washington DC"],
+};
+
+console.log(rome);
+
+// myLocation
+console.log(rome.myLocation);
+
+// print New York
+console.log(rome.placesTraveled[2]);
+
+const myReallyCoolPost = {
+  username: "@generalassembly",
+  likes: 1200,
+  comments: ["really cool post", "nice", "javascript is cool", "woah"],
+  caption: "Day 3 of SEI",
+  PICTURE: "https://instagram.com/generalassembly/.....",
+  shares: 12,
+};
+// console.log(myReallyCoolPost);
+
+myReallyCoolPost.myLocation = "San Fran";
+console.log(myReallyCoolPost);
+
+// likes, captions, shares, comments, username, picture
