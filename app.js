@@ -28,3 +28,21 @@ while (myOtherNumber < numberTwo) {
   console.log(myOtherNumber); // 10, 11, 12
   myOtherNumber += 1; // 11, 12, 13
 }
+
+//my two examples of while loops
+
+var numberThree = 30;
+var otherNumberThree = 15;
+
+while (otherNumberThree < numberThree) {
+  console.log(otherNumberThree);
+  otherNumberThree += 1;
+}
+
+var rice = 40;
+var myOtherRice = 20;
+
+while (myOtherRice < rice) {
+  console.log(myOtherRice); // 10, 11, 12
+  myOtherRice += 1; // 11, 12, 13
+}
