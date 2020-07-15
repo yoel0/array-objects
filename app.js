@@ -109,3 +109,14 @@ myReallyCoolPost.myLocation = "San Fran";
 console.log(myReallyCoolPost);
 
 // likes, captions, shares, comments, username, picture
+
+// instagram post object
+
+const FourthOfJulyPost = {
+  username: "@ga",
+};
+FourthOfJulyPost.picture = "https://instagram.com/.....";
+FourthOfJulyPost["likes"] = 15;
+FourthOfJulyPost.comments = ["ok..."];
+FourthOfJulyPost.caption = "Writing code on the 4th";
+console.log(FourthOfJulyPost);
